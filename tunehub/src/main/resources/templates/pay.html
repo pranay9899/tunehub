@@ -12,7 +12,7 @@
 	<div>
 
 		<h1>Why premium ?</h1>
-		<p>text...................</p>
+		<pre>Go premium for the ultimate music experience.</pre>
 
 		<form id="payment-form">
 			<button type="submit" class="buy-button">BUY</button>
@@ -37,7 +37,7 @@ function createOrder() {
         .done(function(order) {
             order = JSON.parse(order);
             var options = {
-                "key": "rzp_test_pvGIc9JvXWZTVS",
+                "key": "rzp_test_kTu9geCj6cJJZ8",
                 "amount": order.amount_due.toString(),
                 "currency": "INR",
                 "name": "Tune Hub",
